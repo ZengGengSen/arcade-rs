@@ -1,0 +1,14 @@
+[package]
+name = "arcade-rs"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "m68000_proc"
+path = "src/component/processor/m68000/m68000_proc.rs"
+proc-macro = true
+
+[dependencies]
+libc = "0.2.155"
+proc-macro2 = "1.0.86"
+quote = "1.0.36"
